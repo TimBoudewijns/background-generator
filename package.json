@@ -1,0 +1,22 @@
+{
+  "name": "background-generator",
+  "version": "1.0.0",
+  "description": "Backgroud Generator",
+  "main": "script.js",
+  "scripts": {
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimBoudewijns/background-generator.git"
+  },
+  "author": "T. Boudewijns",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TimBoudewijns/background-generator/issues"
+  },
+  "homepage": "https://github.com/TimBoudewijns/background-generator#readme",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
